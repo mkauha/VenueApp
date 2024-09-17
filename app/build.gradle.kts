@@ -24,6 +24,8 @@ android {
 
         buildConfigField("String", "CLIENT_ID", "")
         buildConfigField("String", "CLIENT_SECRET", "")
+        buildConfigField("String", "BASE_API_URL", "\"https://api.foursquare.com/\"")
+
     }
 
     buildTypes {

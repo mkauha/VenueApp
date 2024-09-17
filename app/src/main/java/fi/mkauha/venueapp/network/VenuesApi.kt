@@ -1,6 +1,7 @@
 package fi.mkauha.venueapp.network
 
 import com.google.gson.annotations.SerializedName
+import fi.mkauha.venueapp.BuildConfig
 import fi.mkauha.venueapp.model.Location
 import fi.mkauha.venueapp.model.Venue
 import retrofit2.http.GET
@@ -9,7 +10,7 @@ import retrofit2.http.Query
 interface VenuesApi {
 
     companion object {
-        const val BASE_URL = "https://api.foursquare.com/" // TODO move to buildconfig
+        const val BASE_URL = BuildConfig.BASE_API_URL
     }
 
     @GET("/v2/venues/search")
