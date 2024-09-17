@@ -8,3 +8,7 @@ Uses Foursquare API (v2) [https://docs.foursquare.com/developer/reference/place-
 - Retrofit 2
 - OkHttp3
 - Accompanist
+  
+
+### Screenshot
+![Screenshot](docs/img/screenshot.png "Screenshot")
